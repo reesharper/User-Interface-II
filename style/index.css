@@ -41,4 +41,71 @@ blockquote, q {
 	quotes: "" "";
     }
 
-    
+
+header {
+    width: 100%;
+}
+
+.head {
+    display: flex;
+}
+
+nav {
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.head-image {
+    background-image: url("https://stillmed.olympic.org/media/Images/OlympicOrg/News/2019/12/11/2019-12-11-mountain-day-featured-01.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    margin:2% 20%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-image {
+    margin: 5%;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 8%;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: skyblue;
+    text-align: center;
+    height: 20vh;
+}
+
+.contact {
+    width: 15%;
+    margin: 2%;
+    font-size: 2rem;
+    border: 0px;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.contact:hover {
+    color: white;
+    background: #023584;
+    transition: .3s;
+}
