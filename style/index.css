@@ -158,3 +158,29 @@ footer {
     background: #023584;
     transition: .3s;
 }
+
+/* adjusted styling for 800px width */
+
+@media (max-width: 800px){
+
+    nav a {
+        width: 15%;
+        padding-top: 2%;
+    }
+
+    .projects {
+        width: 25%;
+    }
+
+    .contact {
+        width: 30%;
+        height: 10%;
+        text-align: center;
+        line-height: 10%;
+    }
+
+    footer {
+        align-items: center;
+    }
+
+}
